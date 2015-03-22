@@ -5,3 +5,4 @@ var from = numsArray.indexOf("foo");
 console.log('from=%s',from);
 
 console.log(numsArray.splice(from, 2));
+// Make sure that the arguments passed to splice are not negative.
